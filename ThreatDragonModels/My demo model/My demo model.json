@@ -317,7 +317,7 @@
                 }
               ],
               "threatFrequency": {
-                "spoofing": 1,
+                "spoofing": 2,
                 "tampering": 0,
                 "repudiation": 0,
                 "informationDisclosure": 0,
@@ -423,7 +423,7 @@
               ],
               "threatFrequency": {
                 "tampering": 0,
-                "informationDisclosure": 2,
+                "informationDisclosure": 5,
                 "denialOfService": 0
               }
             },
@@ -441,7 +441,7 @@
             },
             "vertices": [
               {
-                "x": 630,
+                "x": 650,
                 "y": 180
               }
             ]
@@ -460,13 +460,11 @@
                 "text": "MySQL Server"
               },
               "topLine": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               }
             },
@@ -562,7 +560,7 @@
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "isALog": false,
               "isEncrypted": false,
               "isSigned": false,
@@ -572,7 +570,7 @@
                 {
                   "id": "7a3ced6b-4c9a-43c5-9719-3ec71e539bce",
                   "title": "Data on-rest encryption",
-                  "status": "Open",
+                  "status": "Mitigated",
                   "severity": "High",
                   "type": "Information disclosure",
                   "description": "Data on data base need to be encrypted",
@@ -585,8 +583,8 @@
                 {
                   "id": "93aa8921-c8f5-4139-b7b9-7732c195eedc",
                   "title": "Data activity monitoring and control",
-                  "status": "Open",
-                  "severity": "TBD",
+                  "status": "Mitigated",
+                  "severity": "Medium",
                   "type": "Information disclosure",
                   "description": "data access needs to be monitored and controlled , especially for PII data",
                   "mitigation": "Data Activity Monitoring solution",
@@ -599,7 +597,7 @@
               "threatFrequency": {
                 "tampering": 0,
                 "repudiation": 0,
-                "informationDisclosure": 2,
+                "informationDisclosure": 6,
                 "denialOfService": 0
               }
             }
